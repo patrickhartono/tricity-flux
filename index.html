@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tricity-flux</title>
+    <meta name="description" content="Saigon Triangle project page" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="spacer"></div>
+
+      <section class="center">
+        <h1 class="title">tricity-flux</h1>
+        <p class="authors"><strong>Christian Berg - Bin Youn - Patrick Hartono</strong></p>
+        <p class="affil">School of Communication and Design, RMIT Vietnam</p>
+        <p class="links">
+          <strong>
+            <a href="#">Paper</a> -
+            <a href="#">Code</a> -
+            <a href="#">Demo</a> 
+           <!-- <a href="#">Upload Video</a> -->
+          </strong>
+        </p>
+      </section>
+
+      <section class="center">
+        <h2>Abstract</h2>
+      </section>
+      <section class="text">
+        <p>tricity-flux.xyz explores Ho Chi Minh City, Vietnam, as a site where change is the only constant, translating urban flux into a volumetric, behavioral systems. Through algorithmic reconfiguration representational imagery is transformed from fixed state into dynamic particle fields that occupy space, respond to forces and evolve over time and therefore shift the image from object to process, from archive to simulation. Positioned as permanent and temporary migrants, the artists work within multiple in-betweens: between cultures, between stillness and motion, between picture and computation, between has-been and could-be. The artists triangulate the city’s continuous change across technical, spatial, and temporal layers.</p>
+        <p>Patrick Hartono’s inquiry investigates relations between sound, space, and traffic. He focuses on the city as a spatial system shaped by congestion and continuous movement. Traffic jams are examined not as disruptions, but as moments where spatial awareness becomes heightened through proximity, negotiation, and adaptation. Within dense conditions, drivers and pedestrians navigate space through informal cues and collective intuition rather than fixed rules. These interactions form a dynamic and shifting structure, where chaos and order coexist. Hartono investigates how spatial intelligence emerges from everyday movement, treating congestion as a behavioral condition that reveals how the city organizes itself in real time.</p>
+        <p>Bin Youn’s inquiry starts with scanning found flowers on the surface of her own body whereby the hand scanner is not a machine but a tool in a rite of passage: the light bar moves across the glass like a slow breath passing through, the illumination penetrates petals, stem and human skin: the fallen flower, already dead, receives light one more time and resurrects pixel by pixel. What began physically, the software continues digitally. The name Touchdesigner is not metaphor but method: the same gesture that lifted flowers from sidewalks now manipulates nodes, parameters and real-time transformations. The creature that emerges is twice-touched: once by palm, once by code.</p>
+        <p>Christian Berg’s inquiry starts with the six-digit code of Vietnamese lottery tickets that lead to process-driven traverses across the city’s vast topographies in which each ticket number corresponds with a GPS location. Taking inspiration from the vernacular and cosmological gambling practice of số đề the project uses traditional photographs as source materials to create through pixel-to-point translation elusive creatures made of real time 3D particles. The overlay of these visual artefacts with the source material makes a connection between the physical sites of inquiry and the spiritual world visible.</p>
+        <p>Each artist’s source material is chosen not for aesthetic qualities, but for thematic, affective, or contextual resonance: whether linked to identity, site, space, numerology, or gesture. With the understanding that it will later be dissolved, redistributed, or structurally reconfigured through simulation.</p>
+        <p>Beginning from different narrative foundations, each inquiry activates a specific translation process: moving from pixel data to particle systems, from visual information to volumetric geometry, and from geometry to behavioral simulation. Through this multi-artefact structure, narrative, computation and material behavior, the artists co-produce the image which represents their collective state of in-betweenness. In-between cultures, in-between languages, and in-between technologies.</p>
+      </section>
+      <hr class="divider" />
+
+      <section class="center">
+        <h2>Installation Plan</h2>
+      </section>
+      <!-- Old Installation Plan (archived)
+      <section class="center">
+        <img src="images/image5.png" alt="Project highlight image" class="wide-image" />
+      </section>
+      <section class="text">
+        <p>
+          Dummy text: Brief explanation of the visual system, process, or conceptual framing. Replace
+          this with project-specific details when ready.
+        </p>
+      </section>
+      -->
+      <section class="technical-docs">
+<div class="container">
+        <div class="header">
+            <h1><a href="https://tricity-flux.xyz" target="_blank">tricity-flux.xyz</a></h1>
+            <p class="artists">
+                <a href="https://academics.rmit.edu.au/christian-berg" target="_blank">Christian Berg</a> · 
+                <a href="https://academics.rmit.edu.au/bin-youn" target="_blank">Bin Youn</a> · 
+                <a href="https://academics.rmit.edu.au/patrick-hartono" target="_blank">Patrick Hartono</a>
+            </p>
+            <p class="section-title">Installation Technical Documentation</p>
+        </div>
+        
+        <div class="views-grid">
+            <!-- 1. ISOMETRIC VIEW - Precise SVG -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">1</div>
+                    <div class="view-title">Isometric View</div>
+                </div>
+                <div class="view-canvas">
+                    <div class="iso-canvas">
+                        <div class="iso-svg-wrapper">
+                            <svg width="200" height="280" viewBox="0 0 200 280">
+                                <defs>
+                                    <linearGradient id="poleGradIso" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#1a1a1a"/>
+                                        <stop offset="50%" stop-color="#4a4a4a"/>
+                                        <stop offset="100%" stop-color="#1a1a1a"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <!-- PRISM FRAME -->
+                                <!-- Back/Top edge line (purple) -->
+                                <line x1="40" y1="60" x2="160" y2="60" stroke="#5a2d6a" stroke-width="3"/>
+                                
+                                <!-- Left Panel (green) -->
+                                <polygon points="40,60 100,100 100,180 40,140" fill="#2d5a4a" stroke="#3a6a5a" stroke-width="2"/>
+                                <!-- Left Screen - aligned with panel -->
+                                <polygon points="50,75 90,105 90,165 50,135" fill="#0a1515" stroke="#1a2a2a" stroke-width="1"/>
+                                
+                                <!-- Right Panel (blue) -->
+                                <polygon points="160,60 100,100 100,180 160,140" fill="#2d4a6a" stroke="#3a5a7a" stroke-width="2"/>
+                                <!-- Right Screen - aligned with panel -->
+                                <polygon points="150,75 110,105 110,165 150,135" fill="#0a1520" stroke="#1a2530" stroke-width="1"/>
+                                
+                                <!-- Top edges -->
+                                <line x1="40" y1="60" x2="100" y2="100" stroke="#3a6a5a" stroke-width="2"/>
+                                <line x1="160" y1="60" x2="100" y2="100" stroke="#3a5a7a" stroke-width="2"/>
+                                
+                                <!-- Front vertical edge (spine) -->
+                                <line x1="100" y1="100" x2="100" y2="180" stroke="#5a6a7a" stroke-width="3"/>
+                                
+                                <!-- HEADPHONES - at exact bottom corners of panels -->
+                                <!-- Left HP at left vertex -->
+                                <circle cx="40" cy="140" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                                <path d="M32,132 Q40,124 48,132" stroke="#555" stroke-width="2" fill="none"/>
+                                <text x="22" y="145" fill="#666" font-size="8">🎧</text>
+                                
+                                <!-- Right HP at right vertex -->
+                                <circle cx="160" cy="140" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                                <path d="M152,132 Q160,124 168,132" stroke="#555" stroke-width="2" fill="none"/>
+                                <text x="170" y="145" fill="#666" font-size="8">🎧</text>
+                                
+                                <!-- Front HP at front vertex -->
+                                <circle cx="100" cy="180" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                                <path d="M92,172 Q100,164 108,172" stroke="#555" stroke-width="2" fill="none"/>
+                                <text x="112" y="185" fill="#666" font-size="8">🎧</text>
+                                
+                                <!-- POLE - directly from front vertex -->
+                                <rect x="97" y="188" width="6" height="45" fill="url(#poleGradIso)" rx="2"/>
+                                
+                                <!-- TRIPOD - centered under pole -->
+                                <circle cx="100" cy="235" r="5" fill="#333" stroke="#444" stroke-width="2"/>
+                                <line x1="100" y1="238" x2="65" y2="268" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                                <line x1="100" y1="238" x2="100" y2="272" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                                <line x1="100" y1="238" x2="135" y2="268" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="hover-hint">hover to pause rotation</div>
+                    <div class="dim-label" style="bottom:10px;left:50%;transform:translateX(-50%)">3D Prism Frame</div>
+                </div>
+            </div>
+            
+            <!-- 2. FRONT VIEW -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">2</div>
+                    <div class="view-title">Front View</div>
+                </div>
+                <div class="view-canvas">
+                    <div class="grid-floor"></div>
+                    <svg viewBox="0 0 280 300" style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:280px;height:290px;">
+                        <defs>
+                            <linearGradient id="poleGradFront" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#1a1a1a"/>
+                                <stop offset="50%" stop-color="#4a4a4a"/>
+                                <stop offset="100%" stop-color="#1a1a1a"/>
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Eye level indicator -->
+                        <line x1="10" y1="95" x2="45" y2="95" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4,3"/>
+                        <text x="27" y="88" text-anchor="middle" fill="#e74c3c" font-size="8">EYE</text>
+                        <text x="27" y="108" text-anchor="middle" fill="#e74c3c" font-size="8">LEVEL</text>
+                        <line x1="235" y1="95" x2="270" y2="95" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4,3"/>
+                        
+                        <!-- Triangle top frame -->
+                        <polygon points="140,20 55,65 225,65" fill="#2a2a35" stroke="#3a3a4a" stroke-width="3"/>
+                        <line x1="140" y1="20" x2="140" y2="65" stroke="#3a3a4a" stroke-width="2"/>
+                        
+                        <!-- Display housing -->
+                        <rect x="60" y="65" width="160" height="105" fill="#1a1a25" stroke="#3a3a4a" stroke-width="3" rx="3"/>
+                        
+                        <!-- Screen -->
+                        <rect x="72" y="77" width="136" height="81" fill="#0a1015" stroke="#1a2530" stroke-width="1" rx="2"/>
+                        <text x="140" y="122" text-anchor="middle" fill="#4a6a7a" font-size="10">10.1" DISPLAY</text>
+                        
+                        <!-- Headphones at bottom corners -->
+                        <circle cx="60" cy="175" r="9" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <path d="M51,166 Q60,157 69,166" stroke="#555" stroke-width="2" fill="none"/>
+                        <text x="40" y="180" fill="#666" font-size="9">🎧</text>
+                        
+                        <circle cx="220" cy="175" r="9" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <path d="M211,166 Q220,157 229,166" stroke="#555" stroke-width="2" fill="none"/>
+                        <text x="232" y="180" fill="#666" font-size="9">🎧</text>
+                        
+                        <!-- Pole -->
+                        <rect x="137" y="175" width="6" height="65" fill="url(#poleGradFront)" rx="2"/>
+                        
+                        <!-- Tripod -->
+                        <circle cx="140" cy="242" r="6" fill="#333" stroke="#444" stroke-width="2"/>
+                        <line x1="140" y1="246" x2="90" y2="290" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+                        <line x1="140" y1="246" x2="140" y2="295" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+                        <line x1="140" y1="246" x2="190" y2="290" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+                    </svg>
+                    
+                    <div class="dim-label" style="bottom:10px;left:50%;transform:translateX(-50%)">Height: ~63" (160cm)</div>
+                </div>
+            </div>
+            
+            <!-- 3. TOP VIEW - Fixed headphone positions -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">3</div>
+                    <div class="view-title">Top View — 3-Sided Walls</div>
+                </div>
+                <div class="view-canvas">
+                    <svg viewBox="0 0 280 300" style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:280px;height:290px;">
+                        <!-- 3-Sided Walls -->
+                        <rect x="30" y="30" width="220" height="12" fill="#4a4a5a" rx="2"/>
+                        <rect x="30" y="30" width="12" height="180" fill="#4a4a5a" rx="2"/>
+                        <rect x="238" y="30" width="12" height="180" fill="#4a4a5a" rx="2"/>
+                        
+                        <!-- Triangle - vertex pointing down toward entrance -->
+                        <polygon points="70,70 210,70 140,200" fill="#1a1a25" stroke="#3a3a4a" stroke-width="3"/>
+                        
+                        <!-- Colored edges for each display face -->
+                        <line x1="70" y1="70" x2="140" y2="200" stroke="#2d5a4a" stroke-width="5" stroke-linecap="round"/>
+                        <line x1="210" y1="70" x2="140" y2="200" stroke="#2d4a6a" stroke-width="5" stroke-linecap="round"/>
+                        <line x1="70" y1="70" x2="210" y2="70" stroke="#5a2d6a" stroke-width="5" stroke-linecap="round"/>
+                        
+                        <!-- Tripod center dot -->
+                        <circle cx="140" cy="110" r="4" fill="#444"/>
+                        
+                        <!-- Headphones at EXACT vertices -->
+                        <!-- Top left vertex -->
+                        <circle cx="70" cy="70" r="9" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <text x="50" y="62" fill="#666" font-size="9">🎧</text>
+                        
+                        <!-- Top right vertex -->
+                        <circle cx="210" cy="70" r="9" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <text x="218" y="62" fill="#666" font-size="9">🎧</text>
+                        
+                        <!-- Bottom vertex -->
+                        <circle cx="140" cy="200" r="9" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <text x="152" y="212" fill="#666" font-size="9">🎧</text>
+                        
+                        <!-- Entrance label -->
+                        <text x="140" y="245" text-anchor="middle" fill="#888" font-size="11">↓ VERTEX FACES ENTRANCE ↓</text>
+                    </svg>
+                    
+                    <div class="dim-label" style="bottom:10px;right:15px;">Space: 8'×8' (244×244cm)</div>
+                </div>
+            </div>
+            
+            <!-- 4. DISPLAY SPECIFICATIONS -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">4</div>
+                    <div class="view-title">Display Specifications</div>
+                </div>
+                <div class="view-canvas" style="background: linear-gradient(180deg, #0d0d18 0%, #0a0a12 100%);">
+                    <div class="spec-diagram">
+                        <div class="display-spec-visual">
+                            <div class="display-unit">
+                                <div class="display-icon">
+                                    <span>10.1"</span>
+                                </div>
+                                <div class="display-specs-list">
+                                    <strong>Raspberry Pi Display</strong><br>
+                                    Resolution: 1280×800<br>
+                                    Aspect: 16:10 (Landscape)<br>
+                                    Touch: Capacitive<br>
+                                    Interface: HDMI + USB
+                                </div>
+                            </div>
+                            
+                            <div class="times-three">×3</div>
+                            
+                            <div class="display-unit">
+                                <svg width="70" height="60" viewBox="0 0 70 60">
+                                    <polygon points="35,5 8,22 8,48 35,55 62,48 62,22" fill="#1a1a25" stroke="#3a3a4a" stroke-width="2"/>
+                                    <line x1="35" y1="5" x2="35" y2="55" stroke="#4a5a6a" stroke-width="1"/>
+                                    <line x1="8" y1="22" x2="62" y2="22" stroke="#4a5a6a" stroke-width="1"/>
+                                </svg>
+                                <div class="display-specs-list" style="margin-top:8px;">
+                                    <strong>Triangular Prism Frame</strong><br>
+                                    Material: Recycled plastic<br>
+                                    <span style="color:#666;font-size:0.55rem">(tentative)</span><br>
+                                    Each side: ~24" (61cm)
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="spec-notes">
+                            Synchronized video playback via Raspberry Pi 4 · Loop duration: variable · No interaction required
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 5. SIDE VIEW - Fixed screen alignment -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">5</div>
+                    <div class="view-title">Side View</div>
+                </div>
+                <div class="view-canvas">
+                    <div class="grid-floor"></div>
+                    <svg viewBox="0 0 320 290" style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:320px;height:280px;">
+                        <defs>
+                            <linearGradient id="poleGradSide" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#1a1a1a"/>
+                                <stop offset="50%" stop-color="#4a4a4a"/>
+                                <stop offset="100%" stop-color="#1a1a1a"/>
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Top triangle -->
+                        <polygon points="115,15 45,50 185,50" fill="#35354a" stroke="#4a4a5a" stroke-width="2"/>
+                        
+                        <!-- Left Panel (green) -->
+                        <polygon points="45,50 45,140 115,140 115,15" fill="#2d5a4a" stroke="#3a6a5a" stroke-width="2"/>
+                        <!-- Left Screen - parallelogram aligned with angled view -->
+                        <polygon points="52,60 52,125 108,125 108,60" fill="#0a1515" stroke="#1a2a2a" stroke-width="1"/>
+                        
+                        <!-- Right Panel (blue) -->
+                        <polygon points="185,50 185,140 115,140 115,15" fill="#2d4a6a" stroke="#3a5a7a" stroke-width="2"/>
+                        <!-- Right Screen - parallelogram aligned with angled view -->
+                        <polygon points="122,60 122,125 178,125 178,60" fill="#0a1520" stroke="#1a2530" stroke-width="1"/>
+                        
+                        <!-- Center spine -->
+                        <line x1="115" y1="15" x2="115" y2="140" stroke="#5a6a7a" stroke-width="3"/>
+                        
+                        <!-- Headphones at bottom vertices with labels -->
+                        <circle cx="45" cy="145" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <path d="M37,137 Q45,129 53,137" stroke="#555" stroke-width="2" fill="none"/>
+                        <text x="28" y="150" fill="#666" font-size="9">🎧</text>
+                        
+                        <circle cx="115" cy="145" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <path d="M107,137 Q115,129 123,137" stroke="#555" stroke-width="2" fill="none"/>
+                        <text x="115" y="165" text-anchor="middle" fill="#666" font-size="9">🎧</text>
+                        
+                        <circle cx="185" cy="145" r="8" fill="#3a3a3a" stroke="#555" stroke-width="2"/>
+                        <path d="M177,137 Q185,129 193,137" stroke="#555" stroke-width="2" fill="none"/>
+                        <text x="195" y="150" fill="#666" font-size="9">🎧</text>
+                        
+                        <!-- Pole -->
+                        <rect x="112" y="153" width="6" height="50" fill="url(#poleGradSide)" rx="2"/>
+                        
+                        <!-- Tripod -->
+                        <circle cx="115" cy="205" r="5" fill="#333" stroke="#444" stroke-width="2"/>
+                        <line x1="115" y1="208" x2="80" y2="248" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                        <line x1="115" y1="208" x2="150" y2="248" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                        
+                        <!-- Viewer -->
+                        <ellipse cx="260" cy="246" rx="12" ry="4" fill="#1a1a25"/>
+                        <rect x="252" y="165" width="16" height="81" rx="8" fill="#4a4a5a"/>
+                        <circle cx="260" cy="150" r="14" fill="#5a5a6a"/>
+                        <text x="260" y="268" text-anchor="middle" fill="#666" font-size="10">VIEWER</text>
+                        
+                        <!-- Eye level line -->
+                        <line x1="185" y1="92" x2="246" y2="150" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,3"/>
+                    </svg>
+                    
+                    <div class="dim-label" style="bottom:10px;left:50%;transform:translateX(-50%)">Depth: ~30" (76cm)</div>
+                </div>
+            </div>
+            
+            <!-- 6. SYSTEM ARCHITECTURE -->
+            <div class="view-panel">
+                <div class="view-header">
+                    <div class="view-number">6</div>
+                    <div class="view-title">System Architecture</div>
+                </div>
+                <div class="view-canvas" style="background: linear-gradient(180deg, #0d0d18 0%, #0a0a12 100%);">
+                    <div class="tech-diagram">
+                        <div class="tech-flow">
+                            <div class="tech-section-label">Media Player</div>
+                            <div class="tech-row">
+                                <div class="tech-box main">
+                                    <span class="label">Controller</span>
+                                    Raspberry Pi 4
+                                </div>
+                                <span class="tech-arrow">→</span>
+                                <div class="tech-group">
+                                    <div class="tech-box">
+                                        <span class="label">Video</span>
+                                        HDMI ×3
+                                    </div>
+                                    <div class="tech-box">
+                                        <span class="label">Audio</span>
+                                        3.5mm Split
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-connector"></div>
+                            
+                            <div class="tech-section-label">Output Devices</div>
+                            <div class="tech-row">
+                                <div class="tech-group">
+                                    <div class="tech-box">Display A</div>
+                                    <div class="tech-box">Display B</div>
+                                    <div class="tech-box">Display C</div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-row" style="margin-top:4px;">
+                                <div class="tech-group">
+                                    <div class="tech-box">🎧 HP 1</div>
+                                    <div class="tech-box">🎧 HP 2</div>
+                                    <div class="tech-box">🎧 HP 3</div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-connector"></div>
+                            
+                            <div class="tech-section-label">Power</div>
+                            <div class="tech-row">
+                                <div class="tech-box main">
+                                    <span class="label">Input</span>
+                                    1× 20A Outlet
+                                </div>
+                                <span class="tech-arrow">→</span>
+                                <div class="tech-box">
+                                    <span class="label">Total Draw</span>
+                                    ~80W
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Specs -->
+        <div class="specs-section">
+            <div class="specs-header">
+                <h2>Space Needs & Technical Information</h2>
+            </div>
+            
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h3>Space Needs</h3>
+                    <div class="spec-row">
+                        <span class="spec-label">Size (H×W×D)</span>
+                        <span class="spec-value">63"×30"×30"</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label"></span>
+                        <span class="spec-value" style="opacity:0.5;font-size:0.6rem">(160×76×76cm)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Weight</span>
+                        <span class="spec-value">~11 lbs (5kg)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Preferred</span>
+                        <span class="spec-value">10'×8'×8'</span>
+                    </div>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>Lighting & Sound</h3>
+                    <div class="spec-row">
+                        <span class="spec-label">Light Req.</span>
+                        <span class="spec-value">Darkness</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Light Emit</span>
+                        <span class="spec-value">Moderate</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Sound Req.</span>
+                        <span class="spec-value">Headsets</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Sound Emit</span>
+                        <span class="spec-value">None</span>
+                    </div>
+                </div>
+                
+                <div class="spec-card">
+                    <h3>Technical</h3>
+                    <div class="spec-row">
+                        <span class="spec-label">Internet</span>
+                        <span class="spec-value">No</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Wireless</span>
+                        <span class="spec-value">No</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Electricity</span>
+                        <span class="spec-value">Yes</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Power</span>
+                        <span class="spec-value">1×20A (~80W)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><a href="https://tricity-flux.xyz" target="_blank">tricity-flux.xyz</a></p>
+        </div>
+    </div>
+      </section>
+      
+      <section class="text">
+        <p>
+          The tricity-flux installation consists of a free-standing triangular prism structure approximately 160 cm in height, 
+          integrating three 10.1-inch displays with a resolution of 1280 × 800, each oriented toward a different viewing direction. 
+          The system is driven by a single Raspberry Pi 4, which synchronizes video playback across all screens and distributes 
+          audio to three individual headphones, ensuring localized sound without ambient audio output. Mounted on a central pole and tripod base, 
+          the installation operates offline, requires a floor area of approximately 8 × 8 feet, and draws an estimated total power of 80 W from 
+          a single 20 A electrical outlet.
+        </p>
+      </section>
+      <hr class="divider" />
+
+      <section class="center">
+        <h2>Gallery</h2>
+      </section>
+      <section class="gallery">
+        <figure>
+          <img src="images/image1.jpg" alt="Project image 1" />
+          <figcaption>Figure 1.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image2.jpg" alt="Project image 2" />
+          <figcaption>Figure 2.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image3.jpg" alt="Project image 3" />
+          <figcaption>Figure 3.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image4.jpg" alt="Project image 4" />
+          <figcaption>Figure 4.</figcaption>
+        </figure>
+      </section>
+      <hr class="divider" />
+
+      <!-- <section class="center">
+        <h2>Citation</h2>
+      </section>
+      <section class="text">
+        <pre class="citation">@inproceedings{saigontriangle2026,
+  title={Saigon Triangle},
+  author={Berg, Christian and Youn, Bin and Hartono, Patrick},
+  booktitle={Conference Name},
+  year={2026}
+}</pre>
+      </section>
+      <hr class="divider" /> -->
+
+      <footer class="footer">
+        <p>Copyright ©2026 Christian Berg, Bin Youn and Patrick Hartono</p>
+      </footer>
+    </main>
+  </body>
+</html>
