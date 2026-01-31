@@ -59,6 +59,32 @@ body {
   text-decoration: underline;
 }
 
+.preview-video {
+  margin: 22px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.preview-video video {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  background: #000;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.figure-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 .text {
   margin: 12px auto 0;
   font-size: 1rem;
